@@ -1,0 +1,27 @@
+# Logfile created on 2015-03-14 01:42:56 -0600 by logger.rb/47272
+I, [2015-03-14T01:42:56.370128 #7019]  INFO -- : *** Below you'll find the most recent exception thrown, this will likely (but not certainly) be the exception that made your application exit abnormally ***
+E, [2015-03-14T01:42:56.370169 #7019] ERROR -- : exit (SystemExit)
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/lib/rspec/core/runner.rb:39:in `exit'
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/lib/rspec/core/runner.rb:39:in `invoke'
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/exe/rspec:4:in `<top (required)>'
+/home/scottp/.rbenv/versions/2.2.0/bin/rspec:23:in `load'
+/home/scottp/.rbenv/versions/2.2.0/bin/rspec:23:in `<main>'
+I, [2015-03-14T01:42:56.370226 #7019]  INFO -- : *** Below you'll find all the exception objects in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2015-03-14T01:42:56.377057 #7019] ERROR -- : stream closed (IOError)
+
+E, [2015-03-14T01:42:56.377244 #7019] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2015-03-14T01:42:56.377293 #7019] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2015-03-14T01:42:56.377412 #7019] ERROR -- : exception reentered (fatal)
+
+E, [2015-03-14T01:42:56.381590 #7019] ERROR -- : ArgumentError (ArgumentError)
+
+E, [2015-03-14T01:42:56.381679 #7019] ERROR -- : Expected example to fail since it is pending, but it passed. (RSpec::Core::Pending::PendingExampleFixedError)
+./spec/i3-rb_gen_spec.rb:7
+E, [2015-03-14T01:42:56.382136 #7019] ERROR -- : exit (SystemExit)
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/lib/rspec/core/runner.rb:39:in `exit'
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/lib/rspec/core/runner.rb:39:in `invoke'
+/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.2.2/exe/rspec:4:in `<top (required)>'
+/home/scottp/.rbenv/versions/2.2.0/bin/rspec:23:in `load'
+/home/scottp/.rbenv/versions/2.2.0/bin/rspec:23:in `<main>'

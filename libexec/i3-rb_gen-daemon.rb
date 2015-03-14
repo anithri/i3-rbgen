@@ -26,9 +26,10 @@ end
 #  regenerate_monthly_report()
 #end
 #
-#DaemonKit::Cron.scheduler.every "10m10s" do
-#  check_score(favourite_team) # every 10 minutes and 10 seconds
-#end
+clock = I3::Blocks::Clock.new(I3::Bar::SEND_WITH.get_config('clock'))
+DaemonKit::Cron.scheduler.every "5s" do
+  clock.tick.send
+end
 #
 #DaemonKit::Cron.scheduler.cron "0 22 * * 1-5" do
 #  DaemonKit.logger.info "activating security system..."

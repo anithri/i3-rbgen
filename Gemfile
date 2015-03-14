@@ -8,11 +8,10 @@
 source 'https://rubygems.org'
 
 gem 'daemon-kit', :github => 'kennethkalmer/daemon-kit'
-
-#
-# safely (http://github.com/kennethkalmer/safely)
-#
-
+gem 'virtus'
+gem 'parseconfig'
+gem 'ruby-dbus'
+gem 'weather-api'
 gem 'safely' # Optional, but recommended.
 
 # gem 'toadhopper' # For reporting exceptions to hoptoad
@@ -21,6 +20,12 @@ gem 'safely' # Optional, but recommended.
 
 gem 'rufus-scheduler', '~> 2.0'
 group :development, :test do
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  gem 'libnotify'
+  gem 'fuubar'
+  gem 'facets'
   gem 'rake'
-  gem 'rspec' 
+  gem 'rspec'
+  gem 'pry'
 end
