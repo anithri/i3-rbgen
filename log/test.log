@@ -189,3 +189,23 @@
 2015-03-14 13:05:29.854836 i3-rb_gen(20500) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
 2015-03-14 13:05:29.889819 i3-rb_gen(20500) [INFO] [daemon-kit]: Running shutdown hooks
 2015-03-14 13:05:29.889885 i3-rb_gen(20500) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 23:21:50.577378 i3-rb_gen(13743) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in test mode
+2015-03-15 23:21:50.577507 i3-rb_gen(13743) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 23:21:50.577514 i3-rb_gen(13743) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 23:21:50.577596 i3-rb_gen(13743) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 23:21:50.577662 i3-rb_gen(13743) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 23:21:50.577721 i3-rb_gen(13743) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 23:21:50.630433 i3-rb_gen(13743) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 23:21:50.630923 i3-rb_gen(13743) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 23:21:50.669521 i3-rb_gen(13743) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 23:21:50.669604 i3-rb_gen(13743) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-16 00:25:45.678707 i3-rb_gen(30533) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in test mode
+2015-03-16 00:25:45.678923 i3-rb_gen(30533) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:25:45.679065 i3-rb_gen(30533) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:25:45.679128 i3-rb_gen(30533) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:25:45.679210 i3-rb_gen(30533) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:25:45.679273 i3-rb_gen(30533) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:25:45.731626 i3-rb_gen(30533) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:25:45.732524 i3-rb_gen(30533) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:25:45.766751 i3-rb_gen(30533) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-16 00:25:45.766912 i3-rb_gen(30533) [WARN] [daemon-kit]: Shutting down i3-rb_gen

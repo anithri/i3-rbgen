@@ -3,3 +3,6 @@
 require_relative './i3/bar/message'
 require_relative './i3/blocks/base'
 require_relative './i3/blocks/clock'
+require_relative './i3/blocks/weather'
+require_relative './i3/blocks/load'
+require_relative '../lib/i3/blocks/mem'

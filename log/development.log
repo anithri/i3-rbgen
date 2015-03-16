@@ -1755,3 +1755,360 @@ KeyError: 'name'
 2015-03-14 14:47:50.517189 i3-rb_gen(27375) [ERROR] EXCEPTION: The name com.dubstepdish.i3dstatus was not provided by any .service files; caused by 3 sender=org.freedesktop.DBus -> dest=:1.42766 serial=161 reply_serial=360 path=; interface=; member= error_name=org.freedesktop.DBus.Error.ServiceUnknown: ["/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:334:in `block in send_sync_or_async'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:504:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:504:in `process'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:449:in `send_sync'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:332:in `send_sync_or_async'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object_interface.rb:66:in `block (2 levels) in define_method_from_descriptor'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object.rb:95:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object.rb:95:in `block (3 levels) in define_shortcut_methods'", "/lib/i3/bar/sender.rb:23:in `show_block'", "/lib/i3/bar/message.rb:30:in `send'", "/libexec/i3-rb_gen-daemon.rb:31:in `block in <top (required)>'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'"]
 2015-03-14 14:47:55.480377 i3-rb_gen(27375) [ERROR] [daemon-kit]: Cron: job Rufus::Scheduler::EveryJob_70282951214020 caught exception: 'The name com.dubstepdish.i3dstatus was not provided by any .service files; caused by 3 sender=org.freedesktop.DBus -> dest=:1.42766 serial=162 reply_serial=362 path=; interface=; member= error_name=org.freedesktop.DBus.Error.ServiceUnknown'
 2015-03-14 14:47:55.480546 i3-rb_gen(27375) [ERROR] EXCEPTION: The name com.dubstepdish.i3dstatus was not provided by any .service files; caused by 3 sender=org.freedesktop.DBus -> dest=:1.42766 serial=162 reply_serial=362 path=; interface=; member= error_name=org.freedesktop.DBus.Error.ServiceUnknown: ["/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:334:in `block in send_sync_or_async'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:504:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:504:in `process'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:449:in `send_sync'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/bus.rb:332:in `send_sync_or_async'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object_interface.rb:66:in `block (2 levels) in define_method_from_descriptor'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object.rb:95:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/ruby-dbus-0.11.0/lib/dbus/proxy_object.rb:95:in `block (3 levels) in define_shortcut_methods'", "/lib/i3/bar/sender.rb:23:in `show_block'", "/lib/i3/bar/message.rb:30:in `send'", "/libexec/i3-rb_gen-daemon.rb:31:in `block in <top (required)>'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:230:in `trigger_block'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/jobs.rb:204:in `block in trigger'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `call'", "/home/scottp/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rufus-scheduler-2.0.24/lib/rufus/sc/scheduler.rb:430:in `block in trigger_job'"]
+2015-03-15 21:02:20.748959 i3-rb_gen(28501) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:02:20.749540 i3-rb_gen(28501) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:02:20.749636 i3-rb_gen(28501) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:02:20.749749 i3-rb_gen(28501) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:02:20.749857 i3-rb_gen(28501) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:02:20.749933 i3-rb_gen(28501) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:02:20.817647 i3-rb_gen(28501) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:02:20.818551 i3-rb_gen(28501) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:02:21.75848 i3-rb_gen(28501) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 21:02:21.75968 i3-rb_gen(28501) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 21:02:49.37 i3-rb_gen(29069) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:02:49.209 i3-rb_gen(29069) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:02:49.313 i3-rb_gen(29069) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:02:49.416 i3-rb_gen(29069) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:02:49.510 i3-rb_gen(29069) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:02:49.586 i3-rb_gen(29069) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:02:49.57602 i3-rb_gen(29069) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:02:49.58841 i3-rb_gen(29069) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:02:49.320670 i3-rb_gen(29069) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 21:02:49.320859 i3-rb_gen(29069) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 21:04:11.460247 i3-rb_gen(29892) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:04:11.460444 i3-rb_gen(29892) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:04:11.460601 i3-rb_gen(29892) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:04:11.460705 i3-rb_gen(29892) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:04:11.460788 i3-rb_gen(29892) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:04:11.460863 i3-rb_gen(29892) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:04:11.517464 i3-rb_gen(29892) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:04:11.518977 i3-rb_gen(29892) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:04:11.984411 i3-rb_gen(29892) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 21:04:11.984569 i3-rb_gen(29892) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 21:04:55.881775 i3-rb_gen(30524) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:04:55.882194 i3-rb_gen(30524) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:04:55.882300 i3-rb_gen(30524) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:04:55.882394 i3-rb_gen(30524) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:04:55.882508 i3-rb_gen(30524) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:04:55.882599 i3-rb_gen(30524) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:04:55.950039 i3-rb_gen(30524) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:04:55.950950 i3-rb_gen(30524) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:04:56.210663 i3-rb_gen(30524) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 21:04:56.210840 i3-rb_gen(30524) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 21:06:05.344002 i3-rb_gen(31295) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:06:05.344193 i3-rb_gen(31295) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:06:05.344310 i3-rb_gen(31295) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:06:05.344388 i3-rb_gen(31295) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:06:05.344467 i3-rb_gen(31295) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:06:05.344539 i3-rb_gen(31295) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:06:05.399167 i3-rb_gen(31295) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:06:05.400056 i3-rb_gen(31295) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:06:05.615135 i3-rb_gen(31295) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 21:06:05.615291 i3-rb_gen(31295) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 21:11:16.4537 i3-rb_gen(1314) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:11:16.4821 i3-rb_gen(1314) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:11:16.4911 i3-rb_gen(1314) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:11:16.4989 i3-rb_gen(1314) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:11:16.5099 i3-rb_gen(1314) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:11:16.5318 i3-rb_gen(1314) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:11:16.73589 i3-rb_gen(1314) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:11:16.74855 i3-rb_gen(1314) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:11:16.368909 i3-rb_gen(1314) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-15 21:12:16.491735 i3-rb_gen(1314) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:12:16 -0600
+2015-03-15 21:13:16.496222 i3-rb_gen(1314) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:13:16 -0600
+2015-03-15 21:14:16.606759 i3-rb_gen(1314) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:14:16 -0600
+2015-03-15 21:15:16.509219 i3-rb_gen(1314) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:15:16 -0600
+2015-03-15 21:15:52.613919 i3-rb_gen(6493) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 21:15:52.614100 i3-rb_gen(6493) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 21:15:52.614205 i3-rb_gen(6493) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 21:15:52.614317 i3-rb_gen(6493) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 21:15:52.614409 i3-rb_gen(6493) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 21:15:52.614487 i3-rb_gen(6493) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 21:15:52.669259 i3-rb_gen(6493) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 21:15:52.670185 i3-rb_gen(6493) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 21:15:52.895462 i3-rb_gen(6493) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-15 21:16:52.999458 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:16:52 -0600
+2015-03-15 21:17:52.905509 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:17:52 -0600
+2015-03-15 21:18:52.956397 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:18:52 -0600
+2015-03-15 21:19:53.93855 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:19:53 -0600
+2015-03-15 21:20:53.171521 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:20:53 -0600
+2015-03-15 21:21:52.995113 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:21:52 -0600
+2015-03-15 21:22:53.82892 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:22:53 -0600
+2015-03-15 21:23:53.118658 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:23:53 -0600
+2015-03-15 21:24:53.220568 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:24:53 -0600
+2015-03-15 21:25:52.896598 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:25:52 -0600
+2015-03-15 21:26:53.104414 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:26:53 -0600
+2015-03-15 21:27:53.40721 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:27:53 -0600
+2015-03-15 21:28:52.947040 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:28:52 -0600
+2015-03-15 21:29:53.55632 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:29:53 -0600
+2015-03-15 21:30:53.14479 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:30:53 -0600
+2015-03-15 21:31:53.112474 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:31:53 -0600
+2015-03-15 21:32:53.185350 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:32:53 -0600
+2015-03-15 21:33:53.223806 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:33:53 -0600
+2015-03-15 21:34:52.988423 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:34:52 -0600
+2015-03-15 21:35:53.106372 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:35:53 -0600
+2015-03-15 21:36:53.109821 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:36:53 -0600
+2015-03-15 21:37:53.63647 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:37:53 -0600
+2015-03-15 21:38:52.939968 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:38:52 -0600
+2015-03-15 21:39:52.945246 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:39:52 -0600
+2015-03-15 21:40:53.13896 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:40:53 -0600
+2015-03-15 21:41:53.143814 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:41:53 -0600
+2015-03-15 21:42:53.28940 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:42:53 -0600
+2015-03-15 21:43:52.974184 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:43:52 -0600
+2015-03-15 21:44:53.169778 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:44:53 -0600
+2015-03-15 21:45:53.118490 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:45:53 -0600
+2015-03-15 21:46:52.898898 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:46:52 -0600
+2015-03-15 21:47:53.45625 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:47:53 -0600
+2015-03-15 21:48:53.126261 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:48:53 -0600
+2015-03-15 21:49:52.979214 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:49:52 -0600
+2015-03-15 21:50:53.44153 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:50:53 -0600
+2015-03-15 21:51:52.982559 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:51:52 -0600
+2015-03-15 21:52:52.940831 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:52:52 -0600
+2015-03-15 21:53:53.208934 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:53:53 -0600
+2015-03-15 21:54:52.947012 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:54:52 -0600
+2015-03-15 21:55:53.216082 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:55:53 -0600
+2015-03-15 21:56:53.83749 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:56:53 -0600
+2015-03-15 21:57:53.79882 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:57:53 -0600
+2015-03-15 21:58:53.168163 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:58:53 -0600
+2015-03-15 21:59:53.144800 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 21:59:53 -0600
+2015-03-15 22:00:53.10669 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:00:53 -0600
+2015-03-15 22:01:53.190955 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:01:53 -0600
+2015-03-15 22:02:52.987084 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:02:52 -0600
+2015-03-15 22:03:53.114438 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:03:53 -0600
+2015-03-15 22:04:52.911512 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:04:52 -0600
+2015-03-15 22:05:53.52145 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:05:53 -0600
+2015-03-15 22:06:53.224340 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:06:53 -0600
+2015-03-15 22:07:53.30940 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:07:53 -0600
+2015-03-15 22:08:53.18626 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:08:53 -0600
+2015-03-15 22:09:52.988144 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:09:52 -0600
+2015-03-15 22:10:53.122340 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:10:53 -0600
+2015-03-15 22:11:52.910499 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:11:52 -0600
+2015-03-15 22:12:53.37999 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:12:53 -0600
+2015-03-15 22:13:53.177922 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:13:53 -0600
+2015-03-15 22:14:53.7562 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:14:53 -0600
+2015-03-15 22:15:53.139129 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:15:53 -0600
+2015-03-15 22:16:52.973110 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:16:52 -0600
+2015-03-15 22:17:53.108020 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:17:53 -0600
+2015-03-15 22:18:52.913014 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:18:52 -0600
+2015-03-15 22:19:53.59377 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:19:53 -0600
+2015-03-15 22:20:52.983737 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:20:52 -0600
+2015-03-15 22:21:52.933893 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:21:52 -0600
+2015-03-15 22:22:53.94473 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:22:53 -0600
+2015-03-15 22:23:52.899003 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:23:52 -0600
+2015-03-15 22:24:53.117943 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:24:53 -0600
+2015-03-15 22:25:52.924013 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:25:52 -0600
+2015-03-15 22:26:53.74948 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:26:53 -0600
+2015-03-15 22:27:53.221352 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:27:53 -0600
+2015-03-15 22:28:53.54150 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:28:53 -0600
+2015-03-15 22:29:52.901707 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:29:52 -0600
+2015-03-15 22:30:53.48053 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:30:53 -0600
+2015-03-15 22:31:52.896391 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:31:52 -0600
+2015-03-15 22:32:53.44697 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:32:53 -0600
+2015-03-15 22:33:52.915198 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:33:52 -0600
+2015-03-15 22:34:53.84544 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:34:53 -0600
+2015-03-15 22:35:52.947591 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:35:52 -0600
+2015-03-15 22:36:53.112503 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:36:53 -0600
+2015-03-15 22:37:52.926109 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:37:52 -0600
+2015-03-15 22:38:53.83083 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:38:53 -0600
+2015-03-15 22:39:53.161324 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:39:53 -0600
+2015-03-15 22:40:53.7893 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:40:53 -0600
+2015-03-15 22:41:53.182929 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:41:53 -0600
+2015-03-15 22:42:53.31006 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:42:53 -0600
+2015-03-15 22:43:53.218569 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:43:53 -0600
+2015-03-15 22:44:53.76956 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:44:53 -0600
+2015-03-15 22:45:52.929013 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:45:52 -0600
+2015-03-15 22:46:53.203655 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:46:53 -0600
+2015-03-15 22:47:53.31391 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:47:53 -0600
+2015-03-15 22:48:53.210302 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:48:53 -0600
+2015-03-15 22:49:53.57026 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:49:53 -0600
+2015-03-15 22:50:53.17414 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:50:53 -0600
+2015-03-15 22:51:53.184850 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:51:53 -0600
+2015-03-15 22:52:53.8876 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:52:53 -0600
+2015-03-15 22:53:53.146724 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:53:53 -0600
+2015-03-15 22:54:52.978473 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:54:52 -0600
+2015-03-15 22:55:53.132882 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:55:53 -0600
+2015-03-15 22:56:52.965589 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:56:52 -0600
+2015-03-15 22:57:53.148001 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:57:53 -0600
+2015-03-15 22:58:52.973547 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:58:52 -0600
+2015-03-15 22:59:53.153406 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 22:59:53 -0600
+2015-03-15 23:00:52.983053 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:00:52 -0600
+2015-03-15 23:01:53.160819 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:01:53 -0600
+2015-03-15 23:02:52.998951 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:02:52 -0600
+2015-03-15 23:03:53.167108 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:03:53 -0600
+2015-03-15 23:04:53.11600 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:04:53 -0600
+2015-03-15 23:05:53.173756 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:05:53 -0600
+2015-03-15 23:06:53.112405 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:06:53 -0600
+2015-03-15 23:07:52.942990 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:07:52 -0600
+2015-03-15 23:08:53.106356 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:08:53 -0600
+2015-03-15 23:09:52.959830 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:09:52 -0600
+2015-03-15 23:10:53.119071 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:10:53 -0600
+2015-03-15 23:11:52.940283 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:11:52 -0600
+2015-03-15 23:12:53.98392 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:12:53 -0600
+2015-03-15 23:13:52.930907 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:13:52 -0600
+2015-03-15 23:14:52.904254 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:14:52 -0600
+2015-03-15 23:15:53.81994 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:15:53 -0600
+2015-03-15 23:16:52.907915 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:16:52 -0600
+2015-03-15 23:17:53.70222 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:17:53 -0600
+2015-03-15 23:18:52.918630 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:18:52 -0600
+2015-03-15 23:19:53.36012 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:19:53 -0600
+2015-03-15 23:20:52.934064 i3-rb_gen(6493) [DEBUG] i3-rb_gen-daemon.rb:51: Scheduled task completed at 2015-03-15 23:20:52 -0600
+2015-03-15 23:21:34.911649 i3-rb_gen(13362) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 23:21:34.911924 i3-rb_gen(13362) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 23:21:34.912018 i3-rb_gen(13362) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 23:21:34.912114 i3-rb_gen(13362) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 23:21:34.912197 i3-rb_gen(13362) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 23:21:34.912342 i3-rb_gen(13362) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 23:21:34.967819 i3-rb_gen(13362) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 23:21:34.968692 i3-rb_gen(13362) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 23:21:35.52932 i3-rb_gen(13362) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-15 23:21:35.53073 i3-rb_gen(13362) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-15 23:21:52.366607 i3-rb_gen(13750) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 23:21:52.366874 i3-rb_gen(13750) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 23:21:52.367002 i3-rb_gen(13750) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 23:21:52.367096 i3-rb_gen(13750) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 23:21:52.367205 i3-rb_gen(13750) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 23:21:52.367294 i3-rb_gen(13750) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 23:21:52.432560 i3-rb_gen(13750) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 23:21:52.433449 i3-rb_gen(13750) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 23:21:52.706218 i3-rb_gen(13750) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-15 23:22:52.944768 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:22:52 -0600
+2015-03-15 23:23:52.773582 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:23:52 -0600
+2015-03-15 23:24:52.948163 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:24:52 -0600
+2015-03-15 23:25:52.776410 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:25:52 -0600
+2015-03-15 23:26:52.944895 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:26:52 -0600
+2015-03-15 23:27:52.767185 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:27:52 -0600
+2015-03-15 23:28:52.792723 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:28:52 -0600
+2015-03-15 23:29:52.942053 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:29:52 -0600
+2015-03-15 23:30:52.770012 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:30:52 -0600
+2015-03-15 23:31:52.990212 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:31:52 -0600
+2015-03-15 23:32:52.880789 i3-rb_gen(13750) [DEBUG] i3-rb_gen-daemon.rb:56: Scheduled task completed at 2015-03-15 23:32:52 -0600
+2015-03-15 23:33:08.601320 i3-rb_gen(16242) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 23:33:08.601567 i3-rb_gen(16242) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 23:33:08.601680 i3-rb_gen(16242) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 23:33:08.601777 i3-rb_gen(16242) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 23:33:08.601894 i3-rb_gen(16242) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 23:33:08.601984 i3-rb_gen(16242) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 23:33:08.663092 i3-rb_gen(16242) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 23:33:08.664116 i3-rb_gen(16242) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 23:33:08.887827 i3-rb_gen(16242) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-15 23:34:09.24967 i3-rb_gen(16242) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:34:09 -0600
+2015-03-15 23:35:09.192139 i3-rb_gen(16242) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:35:09 -0600
+2015-03-15 23:36:09.9305 i3-rb_gen(16242) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:36:09 -0600
+2015-03-15 23:37:00.582821 i3-rb_gen(24261) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-15 23:37:00.583074 i3-rb_gen(24261) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-15 23:37:00.583155 i3-rb_gen(24261) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-15 23:37:00.583224 i3-rb_gen(24261) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-15 23:37:00.583298 i3-rb_gen(24261) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-15 23:37:00.583399 i3-rb_gen(24261) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-15 23:37:00.635277 i3-rb_gen(24261) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-15 23:37:00.635896 i3-rb_gen(24261) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-15 23:37:00.885012 i3-rb_gen(24261) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-15 23:38:01.130697 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:38:01 -0600
+2015-03-15 23:39:00.963129 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:39:00 -0600
+2015-03-15 23:40:01.112811 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:40:01 -0600
+2015-03-15 23:41:00.933534 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:41:00 -0600
+2015-03-15 23:42:01.81452 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:42:01 -0600
+2015-03-15 23:43:00.908249 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:43:00 -0600
+2015-03-15 23:44:01.96987 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:44:01 -0600
+2015-03-15 23:45:00.913543 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:45:00 -0600
+2015-03-15 23:46:01.79438 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:46:01 -0600
+2015-03-15 23:47:00.911237 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:47:00 -0600
+2015-03-15 23:48:01.61333 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:48:01 -0600
+2015-03-15 23:49:00.897247 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:49:00 -0600
+2015-03-15 23:50:01.51094 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:50:01 -0600
+2015-03-15 23:51:00.899072 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:51:00 -0600
+2015-03-15 23:52:01.56764 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:52:01 -0600
+2015-03-15 23:53:01.212321 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:53:01 -0600
+2015-03-15 23:54:01.27353 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:54:01 -0600
+2015-03-15 23:55:01.545 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:55:01 -0600
+2015-03-15 23:56:01.169499 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:56:01 -0600
+2015-03-15 23:57:00.999554 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:57:00 -0600
+2015-03-15 23:58:00.896018 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:58:00 -0600
+2015-03-15 23:59:01.50746 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-15 23:59:01 -0600
+2015-03-16 00:00:00.885423 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:00:00 -0600
+2015-03-16 00:01:01.50652 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:01:01 -0600
+2015-03-16 00:02:00.892111 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:02:00 -0600
+2015-03-16 00:03:01.30187 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:03:01 -0600
+2015-03-16 00:04:01.179151 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:04:01 -0600
+2015-03-16 00:05:00.974750 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:05:00 -0600
+2015-03-16 00:06:01.170986 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:06:01 -0600
+2015-03-16 00:07:01.104272 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:07:01 -0600
+2015-03-16 00:08:00.939571 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:08:00 -0600
+2015-03-16 00:09:01.98541 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:09:01 -0600
+2015-03-16 00:10:00.932903 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:10:00 -0600
+2015-03-16 00:11:01.89415 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:11:01 -0600
+2015-03-16 00:12:00.900647 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:12:00 -0600
+2015-03-16 00:13:01.51771 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:13:01 -0600
+2015-03-16 00:14:01.200294 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:14:01 -0600
+2015-03-16 00:15:01.36073 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:15:01 -0600
+2015-03-16 00:16:01.214627 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:16:01 -0600
+2015-03-16 00:17:01.33968 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:17:01 -0600
+2015-03-16 00:18:01.176695 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:18:01 -0600
+2015-03-16 00:19:01.93318 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:19:01 -0600
+2015-03-16 00:20:00.929399 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:20:00 -0600
+2015-03-16 00:21:01.94250 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:21:01 -0600
+2015-03-16 00:22:00.916583 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:22:00 -0600
+2015-03-16 00:23:01.83587 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:23:01 -0600
+2015-03-16 00:24:00.904472 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:24:00 -0600
+2015-03-16 00:25:01.63276 i3-rb_gen(24261) [DEBUG] i3-rb_gen-daemon.rb:57: Scheduled task completed at 2015-03-16 00:25:01 -0600
+2015-03-16 00:25:26.725443 i3-rb_gen(30132) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:25:26.725645 i3-rb_gen(30132) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:25:26.726087 i3-rb_gen(30132) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:25:26.726183 i3-rb_gen(30132) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:25:26.726278 i3-rb_gen(30132) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:25:26.726385 i3-rb_gen(30132) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:25:26.779494 i3-rb_gen(30132) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:25:26.780302 i3-rb_gen(30132) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:25:26.814106 i3-rb_gen(30132) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-16 00:25:26.814215 i3-rb_gen(30132) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-16 00:25:47.55242 i3-rb_gen(30540) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:25:47.55417 i3-rb_gen(30540) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:25:47.55500 i3-rb_gen(30540) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:25:47.55604 i3-rb_gen(30540) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:25:47.55717 i3-rb_gen(30540) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:25:47.55821 i3-rb_gen(30540) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:25:47.112391 i3-rb_gen(30540) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:25:47.113173 i3-rb_gen(30540) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:25:47.440613 i3-rb_gen(30540) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-16 00:26:47.599263 i3-rb_gen(30540) [DEBUG] i3-rb_gen-daemon.rb:60: Scheduled task completed at 2015-03-16 00:26:47 -0600
+2015-03-16 00:27:47.760049 i3-rb_gen(30540) [DEBUG] i3-rb_gen-daemon.rb:60: Scheduled task completed at 2015-03-16 00:27:47 -0600
+2015-03-16 00:28:47.582536 i3-rb_gen(30540) [DEBUG] i3-rb_gen-daemon.rb:60: Scheduled task completed at 2015-03-16 00:28:47 -0600
+2015-03-16 00:29:47.746316 i3-rb_gen(30540) [DEBUG] i3-rb_gen-daemon.rb:60: Scheduled task completed at 2015-03-16 00:29:47 -0600
+2015-03-16 00:30:47.586918 i3-rb_gen(30540) [DEBUG] i3-rb_gen-daemon.rb:60: Scheduled task completed at 2015-03-16 00:30:47 -0600
+2015-03-16 00:31:46.391901 i3-rb_gen(31125) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:31:46.392077 i3-rb_gen(31125) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:31:46.392158 i3-rb_gen(31125) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:31:46.392298 i3-rb_gen(31125) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:31:46.392406 i3-rb_gen(31125) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:31:46.392498 i3-rb_gen(31125) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:31:46.452969 i3-rb_gen(31125) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:31:46.454649 i3-rb_gen(31125) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:31:46.737034 i3-rb_gen(31125) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-16 00:32:27.73680 i3-rb_gen(31525) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:32:27.74051 i3-rb_gen(31525) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:32:27.74170 i3-rb_gen(31525) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:32:27.74231 i3-rb_gen(31525) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:32:27.74500 i3-rb_gen(31525) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:32:27.74617 i3-rb_gen(31525) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:32:27.134333 i3-rb_gen(31525) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:32:27.135322 i3-rb_gen(31525) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:32:27.174090 i3-rb_gen(31525) [INFO] [daemon-kit]: Running shutdown hooks
+2015-03-16 00:32:27.174227 i3-rb_gen(31525) [WARN] [daemon-kit]: Shutting down i3-rb_gen
+2015-03-16 00:33:27.926510 i3-rb_gen(31945) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:33:27.926712 i3-rb_gen(31945) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:33:27.926824 i3-rb_gen(31945) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:33:27.926954 i3-rb_gen(31945) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:33:27.927109 i3-rb_gen(31945) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:33:27.927201 i3-rb_gen(31945) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:33:27.982390 i3-rb_gen(31945) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:33:27.983494 i3-rb_gen(31945) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:33:28.214611 i3-rb_gen(31945) [INFO] [daemon-kit]: Starting rufus-scheduler
+2015-03-16 00:34:05.712967 i3-rb_gen(32478) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booting in development mode
+2015-03-16 00:34:05.713150 i3-rb_gen(32478) [INFO] [daemon-kit]: Setting up trap for USR1
+2015-03-16 00:34:05.713240 i3-rb_gen(32478) [INFO] [daemon-kit]: Setting up trap for USR2
+2015-03-16 00:34:05.713378 i3-rb_gen(32478) [INFO] [daemon-kit]: Setting up trap for HUP
+2015-03-16 00:34:05.713474 i3-rb_gen(32478) [INFO] [daemon-kit]: Setting up trap for INT
+2015-03-16 00:34:05.713577 i3-rb_gen(32478) [INFO] [daemon-kit]: Setting up trap for TERM
+2015-03-16 00:34:05.766033 i3-rb_gen(32478) [INFO] [daemon-kit]: Configuring safely for exception handling
+2015-03-16 00:34:05.766894 i3-rb_gen(32478) [INFO] [daemon-kit]: DaemonKit (0.4.0.dev) booted, now running i3-rb_gen
+2015-03-16 00:34:06.30099 i3-rb_gen(32478) [INFO] [daemon-kit]: Starting rufus-scheduler

@@ -26,15 +26,30 @@ end
 #  regenerate_monthly_report()
 #end
 #
+
+
 clock = I3::Blocks::Clock.new(I3::Bar::SEND_WITH.get_config('clock'))
-DaemonKit::Cron.scheduler.every "5s" do
+clock.tick.send
+#DaemonKit::Cron.scheduler.every "5s" do
+DaemonKit::Cron.scheduler.cron "* * * * *" do
   clock.tick.send
 end
-#
-#DaemonKit::Cron.scheduler.cron "0 22 * * 1-5" do
-#  DaemonKit.logger.info "activating security system..."
-#  activate_security_system()
-#end
+
+load_avg = I3::Blocks::Load.new(name: 'load')
+load_avg.tick.send
+mem_info = I3::Blocks::Mem.new(name: 'mem')
+mem_info.tick.send
+DaemonKit::Cron.scheduler.every('5s') do
+  load_avg.tick.send
+  mem_info.tick.send
+end
+
+# check weather every 15 minuts
+weather = I3::Blocks::Weather.new(name: 'weather', units: 'f')
+weather.tick.send
+DaemonKit::Cron.scheduler.cron "0,15,30,45 * * * *" do
+  weather.tick.send
+end
 #
 # Example error handling (NOTE: all exceptions in scheduled tasks are logged)
 #DaemonKit::Cron.handle_exception do |job, exception|

@@ -7,7 +7,6 @@ module I3
       include Virtus.model
 
       attribute :name, String, default: ''
-      attribute :interval, Integer, default: 5
       attribute :options, Hash[String => String], default: {}
 
       def message
