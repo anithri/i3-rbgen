@@ -7,16 +7,4 @@ require_relative '../lib/i3/blocks/volume'
 require_relative '../lib/i3/bar/config'
 require 'awesome_print'
 volume = I3::Blocks::Volume.new(name: 'volume', options: I3::Bar::Config.for('volume'))
-ap volume
 volume.call.send
-
-exit if ARGV[0] == 'once'
-s = Rufus::Scheduler.new
-
-s.every '15s' do
-  volume.call.send
-end
-
-s.join
-
-warn 'still alive'
