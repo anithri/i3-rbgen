@@ -3,17 +3,15 @@ require_relative './base'
 module I3
   module Blocks
     class Load < I3::Blocks::Base
+      attribute :interval, Integer, default: 10
       LOAD_AVG = Pathname.new('/proc/loadavg')
 
-      def tick
-        out           = message
+      def call
         loads         = LOAD_AVG.read.split(/ /) if LOAD_AVG.readable?
-        out.name      = name
-        out.full_text = format_full_text(loads.take(3))
-        out.color     = determine_color(loads)
-        out.separator = false
-
-        out
+        full_text = format_full_text(loads.take(3))
+        short_text = loads[0]
+        color     = determine_color(loads)
+        build_message(full_text: full_text, short_text: short_text, color: color)
       end
 
       def determine_color(loads)

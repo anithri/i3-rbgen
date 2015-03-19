@@ -1,4 +1,3 @@
-require 'virtus'
 require_relative '../bar/message'
 
 module I3
@@ -6,11 +5,16 @@ module I3
     class Base
       include Virtus.model
 
-      attribute :name, String, default: ''
-      attribute :options, Hash[String => String], default: {}
+      attribute :name, String
 
-      def message
-        I3::Bar::Message.new(options)
+      def message_options
+        @message_options ||= {
+            name: name,
+        }
+      end
+
+      def build_message(msg_options = {})
+        I3::Bar::Message.new(message_options.merge(msg_options))
       end
 
       def tick

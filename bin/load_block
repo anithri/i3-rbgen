@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+#
+# Stub executable for i3-rb_gen
+#
+require 'rufus-scheduler'
+require_relative '../lib/i3/blocks/load'
+require_relative '../lib/i3/bar/config'
+require 'awesome_print'
+load = I3::Blocks::Load.new(I3::Bar::Config.for('load'))
+load.call.send
+
+s = Rufus::Scheduler.new
+#TODO improve first_in time for values less than 60
+s.every "#{load.interval}s" do
+  load.call.send
+end
+
+s.join

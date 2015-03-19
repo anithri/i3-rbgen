@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+#
+# Stub executable for i3-rb_gen
+#
+require 'rufus-scheduler'
+require_relative '../lib/i3/blocks/clock'
+require_relative '../lib/i3/bar/config'
+require 'awesome_print'
+clock = I3::Blocks::Clock.new(I3::Bar::Config.for('clock'))
+clock.interval = 10
+ap clock
+clock.call.send
+
+s = Rufus::Scheduler.new
+t = Time.now.sec
+#TODO improve first_in time for values less than 60
+s.every "#{clock.interval}s", first_in: "#{(60 - Time.now.sec)}s" do
+  clock.call.send
+end
+
+s.join
+
+warn 'still alive'

@@ -5,10 +5,10 @@ module I3
       MEM_INFO = Pathname.new('/proc/meminfo')
 
       def tick
-        out           = message
+        out           = build_message
         per           = determine_per
         out.color     = determine_color(per)
-        out.full_text = determine_text(per)
+        out.full_text = "┤RAM #{per}%├"
         out.separator = false
         out.name      = name
         out
@@ -33,20 +33,6 @@ module I3
         end
       end
 
-      def determine_text(per)
-        case
-          when per > 90
-            "┤𝍭 #{per}%├"
-          when per > 70
-            "┤𝍬 #{per}%├"
-          when per > 50
-            "┤𝍫 #{per}%├"
-          when per > 30
-            "┤𝍪 #{per}%├"
-          else
-            "┤𝍩 #{per}%├"
-        end
-      end
     end
   end
 end

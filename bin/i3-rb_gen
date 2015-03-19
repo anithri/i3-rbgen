@@ -1,8 +1,0 @@
-#!/usr/bin/env ruby
-#
-# Stub executable for i3-rb_gen
-#
-
-require File.expand_path('../../config/environment',  __FILE__)
-
-DaemonKit::Application.exec( DAEMON_ROOT + '/libexec/i3-rb_gen-daemon.rb' )

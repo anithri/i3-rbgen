@@ -1,6 +1,11 @@
-require File.expand_path('../config/boot',  __FILE__)
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
+require 'rake/version_task'
+RSpec::Core::RakeTask.new(:spec)
 
-require 'rake'
-require 'daemon_kit/tasks'
+task :default => :spec
 
-Dir[File.join(File.dirname(__FILE__), 'tasks/*.rake')].each { |rake| load rake }
+Rake::VersionTask.new do |task|
+  task.with_git_tag = true
+end
+

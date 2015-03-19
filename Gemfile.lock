@@ -1,14 +1,7 @@
-GIT
-  remote: git://github.com/kennethkalmer/daemon-kit.git
-  revision: 0c87223fb40acc4d22bb50ee92c20606c3151b64
-  specs:
-    daemon-kit (0.4.0.dev)
-      eventmachine (>= 0.12.10)
-      thor
-
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.6.1)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -23,7 +16,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
     equalizer (0.0.9)
-    eventmachine (1.0.7)
     facets (3.0.0)
     ffi (1.9.7)
     formatador (0.2.5)
@@ -63,12 +55,10 @@ GEM
     notiffany (0.0.6)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    parseconfig (1.0.6)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -111,16 +101,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  daemon-kit!
+  awesome_print
   facets
   fuubar
   guard-bundler
   guard-rspec
   libnotify
-  parseconfig
   pry
-  rake
-  rspec
   ruby-dbus
   rufus-scheduler (~> 2.0)
   safely

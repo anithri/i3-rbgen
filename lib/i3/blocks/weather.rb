@@ -47,7 +47,7 @@ module I3
       def tick
         require 'weather-api'
         response = ::Weather.lookup(woeid, units)
-        out = message
+        out = build_message
         (out.full_text, out.color) = format_result(response)
         out.name = name
         out

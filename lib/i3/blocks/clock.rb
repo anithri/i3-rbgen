@@ -4,13 +4,12 @@ module I3
     class Clock < I3::Blocks::Base
 
       attribute :clock_format, String, default: '%Y-%m-%d %H:%M'
-
-      def tick
-        out = message
-        out.full_text = Time.now.strftime(clock_format)
-        out.name = 'clock'
-        out
+      attribute :interval, Integer, default: 60
+      def call
+        build_message(full_text: Time.now.strftime(clock_format))
       end
+
+
     end
   end
 end

@@ -1,5 +1,5 @@
 require 'virtus'
-require_relative './sender'
+require_relative 'sender'
 require 'json'
 module I3
   module Bar
@@ -9,15 +9,15 @@ module I3
       attribute :full_text, String
       attribute :short_text, String
       attribute :color, String
-      attribute :min_width, Integer
+      attribute :min_width, String
       attribute :align, String
       attribute :urgent, Boolean
       attribute :name, String
-      attribute :instance, String
+      attribute :block_instance, String
       attribute :separator, Boolean
       attribute :separator_block_width, Integer
 
-      def to_json
+      def to_hash
         final = {}
         attributes.each_pair do |k,v|
           next if v.nil?
@@ -27,7 +27,7 @@ module I3
       end
 
       def send
-        SEND_WITH.show_block(self.to_json)
+        SEND_WITH.show_block(self.to_hash)
       end
     end
   end
