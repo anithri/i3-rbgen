@@ -2,21 +2,16 @@
 #
 # Stub executable for i3-rb_gen
 #
-sleep 10
 require_relative '../lib/i3/blocks/volume'
 require_relative '../lib/i3/bar/config'
 require 'awesome_print'
-puts ' volume setup'
 volume = I3::Blocks::Volume.new(name: 'volume', options: I3::Bar::Config.for('volume'))
 volume.call.send
 
 
-puts 'get bus'
-bus = DBus::SessionBus
-puts 'claim service name'
+bus = DBus::SessionBus.instance
 service = bus.request_service("org.anithri.volume")
 
-puts 'define listener'
 class VolumeListener < DBus::Object
   attr_accessor :volume
   # Create an interface.
@@ -27,13 +22,11 @@ class VolumeListener < DBus::Object
   end
 end
 
-puts 'instantiate obj'
 exported_obj = VolumeListener.new("/org/anithri/volume")
 exported_obj.volume = volume
-puts 'exporting'
+
 service.export(exported_obj)
 
-puts 'listening'
 loop = DBus::Main.new
 loop << bus
 loop.run

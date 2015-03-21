@@ -1,10 +1,2 @@
-#!/usr/bin/env ruby
-#
-# Stub executable for i3-rb_gen
-#
-require 'rufus-scheduler'
-require_relative '../lib/i3/blocks/volume'
-require_relative '../lib/i3/bar/config'
-require 'awesome_print'
-volume = I3::Blocks::Volume.new(name: 'volume', options: I3::Bar::Config.for('volume'))
-volume.call.send
+#!/bin/sh
+dbus-send --session --dest=org.anithri.volume --type=method_call /org/anithri/volume org.anithri.VolumeInterface.update_vol
