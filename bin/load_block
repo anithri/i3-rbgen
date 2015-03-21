@@ -2,6 +2,7 @@
 #
 # Stub executable for i3-rb_gen
 #
+sleep 10
 require 'rufus-scheduler'
 require_relative '../lib/i3/blocks/load'
 require_relative '../lib/i3/bar/config'

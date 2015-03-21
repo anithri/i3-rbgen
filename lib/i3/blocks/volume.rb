@@ -8,8 +8,9 @@ module I3
       def call
         out              = {}
         vol              = get_current_volume
-        out[:short_text] = vol.to_s
+        out[:short_text] = vol.to_s || '🔇'
         out[:full_text]  = if vol.nil?
+                             out[:color] = 'red'
                              '🔇'
                            elsif vol < 40
                              "🔈#{vol}%"

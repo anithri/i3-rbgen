@@ -2,21 +2,38 @@
 #
 # Stub executable for i3-rb_gen
 #
-require 'rufus-scheduler'
+sleep 10
 require_relative '../lib/i3/blocks/volume'
 require_relative '../lib/i3/bar/config'
 require 'awesome_print'
+puts ' volume setup'
 volume = I3::Blocks::Volume.new(name: 'volume', options: I3::Bar::Config.for('volume'))
-ap volume
 volume.call.send
 
-exit if ARGV[0] == 'once'
-s = Rufus::Scheduler.new
 
-s.every '15s' do
-  volume.call.send
+puts 'get bus'
+bus = DBus::SessionBus
+puts 'claim service name'
+service = bus.request_service("org.anithri.volume")
+
+puts 'define listener'
+class VolumeListener < DBus::Object
+  attr_accessor :volume
+  # Create an interface.
+  dbus_interface "org.anithri.VolumeInterface" do
+    dbus_method :update_vol do
+      @volume.call.send
+    end
+  end
 end
 
-s.join
+puts 'instantiate obj'
+exported_obj = VolumeListener.new("/org/anithri/volume")
+exported_obj.volume = volume
+puts 'exporting'
+service.export(exported_obj)
 
-warn 'still alive'
+puts 'listening'
+loop = DBus::Main.new
+loop << bus
+loop.run
