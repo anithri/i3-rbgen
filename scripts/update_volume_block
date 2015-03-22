@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 dbus-send --session --dest=org.anithri.volume --type=method_call /org/anithri/volume org.anithri.VolumeInterface.update_vol

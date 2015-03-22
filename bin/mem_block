@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+#
+# Stub executable for i3-rb_gen
+#
+require 'rufus-scheduler'
+require_relative '../lib/i3/blocks/mem'
+require_relative '../lib/i3/bar/config'
+require 'awesome_print'
+mem = I3::Blocks::Mem.new(I3::Bar::Config.for('memory'))
+mem.call.send
+
+s = Rufus::Scheduler.new
+puts mem.interval
+s.every "#{mem.interval}s" do
+  mem.call.send
+end
+
+s.join

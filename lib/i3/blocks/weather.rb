@@ -5,6 +5,7 @@ module I3
     class Weather < I3::Blocks::Base
       attribute :woeid, Integer, default: 2405641
       attribute :units, String, default: 'c'
+      attribute :interval, Integer, default: 900
       CONDITION_ICONS = {
           'severe thunderstorms' => '🌩',
           'thunderstorms' => '🌩',
@@ -44,7 +45,7 @@ module I3
       }
       CONDITION_ICONS.default_proc = ->(h,k) {h[k] = k}
 
-      def tick
+      def call
         require 'weather-api'
         response = ::Weather.lookup(woeid, units)
         out = build_message

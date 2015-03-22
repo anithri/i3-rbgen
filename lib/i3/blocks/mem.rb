@@ -1,17 +1,18 @@
 require_relative './base'
+require 'pathname'
 module I3
   module Blocks
     class Mem < I3::Blocks::Base
+      attribute :interval, Integer, default: 10
       MEM_INFO = Pathname.new('/proc/meminfo')
 
-      def tick
-        out           = build_message
-        per           = determine_per
-        out.color     = determine_color(per)
-        out.full_text = "┤RAM #{per}%├"
-        out.separator = false
-        out.name      = name
-        out
+      def call
+        out              = {}
+        per, total       = determine_per
+        out[:color]      = determine_color(per)
+        out[:full_text]  = "#{total}GB @ #{per}%"
+        out[:short_text] = "#{per}%"
+        build_message(out)
       end
 
       def determine_per
@@ -20,7 +21,7 @@ module I3
         total         = total.split(/\s+/)[1].to_f
         active        = active.split(/\s+/)[1].to_f
 
-        (active  * 100 / total).round
+        [(active * 100 / total).round, (total / (1024 * 1024)).round]
       end
 
       def determine_color(per)

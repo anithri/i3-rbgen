@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+#
+# Stub executable for i3-rb_gen
+#
+sleep 10
+require 'rufus-scheduler'
+require_relative '../lib/i3/blocks/weather'
+require_relative '../lib/i3/bar/config'
+require 'awesome_print'
+weather = I3::Blocks::Weather.new(I3::Bar::Config.for('weather'))
+weather.call.send
+
+s = Rufus::Scheduler.new
+
+s.every "#{weather.interval}s" do
+  weather.call.send
+end
+
+s.join
