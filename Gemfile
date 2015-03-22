@@ -11,7 +11,7 @@ gem 'virtus'
 gem 'ruby-dbus'
 gem 'weather-api'
 gem 'safely' # Optional, but recommended.
-
+gem 'git'
 gem 'rufus-scheduler', '~> 2.0'
 group :development, :test do
   gem 'guard-rspec'

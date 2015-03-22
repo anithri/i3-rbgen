@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+#
+# Stub executable for i3-rb_gen
+#
+require_relative '../lib/i3/blocks/watch_git'
+require_relative '../lib/i3/bar/config'
+
+my_watch_git = I3::Blocks::WatchGit.new(I3::Bar::Config.for('git'))
+bus = DBus::SessionBus.instance
+service = bus.request_service("org.anithri.watch_git")
+
+class WatchGitListener < DBus::Object
+  attr_accessor :watch_git
+  # Create an interface.
+  dbus_interface "org.anithri.WatchGit" do
+    dbus_method :update, "in repo_dir:s" do |dir|
+      watch_git.call(dir).send
+    end
+  end
+end
+
+exported_obj = WatchGitListener.new("/org/anithri/watch_git")
+exported_obj.watch_git = my_watch_git
+service.export(exported_obj)
+
+loop = DBus::Main.new
+loop << bus
+loop.run
