@@ -4,7 +4,7 @@ module I3
   module Blocks
     class WatchGit < I3::Blocks::Base
 
-      attribute :clean_format, String, default: '<span color="green">%{name}: </span>'
+      attribute :clean_format, String, default: '<span color="lime">%{name}: </span>'
       attribute :dirty_format, String, default: '%{name}: <span color="cyan">𝛥%{modified}</span> <span color="lime">+%{added}</span> <span color="red">-%{deleted}</span> <span color="yellow">?%{untracked}</span>'
       attribute :filthy_format, String, default: '<span color="red">%{name}: </span>'
       attribute :filthy_threshold, Integer, default: 8
