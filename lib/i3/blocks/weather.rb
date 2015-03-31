@@ -4,7 +4,7 @@ module I3
   module Blocks
     class Weather < I3::Blocks::Base
       attribute :woeid, Integer, default: 2405641
-      attribute :units, String, default: 'c'
+      attribute :units, String, default: 'f'
       attribute :interval, Integer, default: 900
       CONDITION_ICONS = {
           'severe thunderstorms' => '🌩',

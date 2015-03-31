@@ -6,7 +6,7 @@ require 'rufus-scheduler'
 require_relative '../lib/i3/blocks/mem'
 require_relative '../lib/i3/bar/config'
 require 'awesome_print'
-mem = I3::Blocks::Mem.new(I3::Bar::Config.for('memory'))
+mem = I3::Blocks::Mem.new(name: 'memory', I3::Bar::Config.for('memory'))
 mem.call.send
 
 s = Rufus::Scheduler.new

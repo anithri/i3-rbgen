@@ -16,6 +16,7 @@ module I3
       attribute :block_instance, String
       attribute :separator, Boolean
       attribute :separator_block_width, Integer
+      attribute :markup, String, default: 'pango'
 
       def to_hash
         final = {}

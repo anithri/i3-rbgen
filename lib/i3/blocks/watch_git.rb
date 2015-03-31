@@ -27,7 +27,7 @@ module I3
       end
 
       def call(repo_dir)
-        build_message(full_text: format_results(status(repo_dir)))
+        build_message(markup: 'pango', full_text: format_results(status(repo_dir)))
       end
 
       def format_results(status)

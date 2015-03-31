@@ -6,10 +6,12 @@ module I3
       include Virtus.model
 
       attribute :name, String
+      attribute :markup, String, default: 'pango'
 
       def message_options
         @message_options ||= {
             name: name,
+            markup: markup,
         }
       end
 
